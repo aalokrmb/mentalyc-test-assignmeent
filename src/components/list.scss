@@ -1,0 +1,20 @@
+.status-bar{
+    height: 40px;
+    background: linear-gradient(90deg, rgba(105,28,82,1) 0%, rgba(255,9,110,1) 100%);
+    border: 0px !important;
+    padding: 5px 5px !important;
+    font-weight: 700;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    color: #fff ;
+    &-count{
+        background-color: #000;
+        border-radius: 50%;
+        color: #fff;
+        padding: 3px;
+     
+  
+    }
+}

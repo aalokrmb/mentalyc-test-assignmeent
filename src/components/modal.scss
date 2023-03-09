@@ -1,0 +1,25 @@
+.modal-container{
+   &-close-icon {
+        justify-content: end;
+        display: flex;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        }
+}   
+.upload-title {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px;
+}
+.upload--detail{
+    font-size: 14px;
+    font-weight: 300    ;
+}
+.finishUploadButton{
+background: rgb(105,28,82);
+background: linear-gradient(90deg, rgba(105,28,82,1) 0%, rgba(255,9,110,1) 100%);
+border: 0px !important;
+padding: 10px 15px !important;
+font-weight: 700;
+}

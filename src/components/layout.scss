@@ -1,0 +1,60 @@
+.layout-container {
+    background-color: #fdfdfd;
+    flex-direction: column !important;
+
+    &-container {
+        display: block;
+        float: left;
+        padding: 15px;
+
+        &:first-child {
+            border-bottom: 1px solid red;
+        }
+    }
+
+    &-logoImg {
+        width: 92% !important;
+        margin: 0 auto;
+        display: block;
+
+        img {
+            width: 100px;
+        }
+    }
+
+    &-layoutDetails {
+        width: 92% !important;
+        margin: 0 auto;
+        display: block;
+
+        &-userTitle {
+            font-size: 23px;
+            font-weight: 300;
+            color: #111;
+            flex: 1;
+            width: 99%;
+        }
+
+        &-uploadTitle {
+            float: left;
+            width: 100%;
+            font-weight: 700;
+            color: black;
+        }
+
+        &-uploadBtn {
+            width: 100%;
+            margin-top: 15px;
+            background: rgb(105, 28, 82);
+            background: linear-gradient(90deg, rgba(105, 28, 82, 1) 0%, rgba(255, 9, 110, 1) 100%);
+            border: 0px !important;
+            padding: 10px !important;
+            font-weight: 700;
+        }
+
+    }
+
+    .layout-container .logoImg .layout-container {
+        flex-direction: column !important;
+    }
+}
