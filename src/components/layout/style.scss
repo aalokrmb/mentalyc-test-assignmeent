@@ -1,5 +1,5 @@
 .layout-container {
-    background-color: #fdfdfd;
+    background-color: #fff;
     flex-direction: column !important;
 
     &-container {
@@ -8,7 +8,7 @@
         padding: 15px;
 
         &:first-child {
-            border-bottom: 1px solid red;
+            border-bottom: 1px solid #731054;
         }
     }
 
